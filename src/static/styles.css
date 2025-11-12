@@ -205,6 +205,40 @@ section h3 {
   letter-spacing: 0.3px;
 }
 
+/* Share Buttons */
+.share-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border-light);
+}
+
+.share-button {
+  background-color: var(--background);
+  border: 1px solid var(--border);
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-button:hover {
+  background-color: var(--border);
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.share-icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
 /* Capacity Indicator */
 .capacity-container {
   margin: 8px 0;
